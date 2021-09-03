@@ -205,7 +205,7 @@ class Data_Balancer():
         if self.data_dict is not None:
             key = self._choose_class()
             if key in self.classes:
-                if self.data_dict[key]>10:
+                if self.data_dict[key.capitalize()]>10:
                     class_id = [idx for idx, value in self.class_dict.items() if value==key]
                     class_id = class_id[0]
                     self._load_and_aug(class_id)
