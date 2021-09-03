@@ -1,0 +1,5 @@
+imgaug==0.4.0
+albumentations==1.03
+opencv-python==4.5.3.56
+tqdm==4.62.2
+
